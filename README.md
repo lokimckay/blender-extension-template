@@ -43,3 +43,4 @@ The example extension can be found under "Hello World" on the Object Properties 
 
 - Check if your extension is enabled in `Edit` -> `Preferences`
 - Ensure extension names/ids match between `config.yml` and `blender_manifest.toml`
+- "No module named `<your extension name>`" - ensure that the directory name under `src/my_example_extension` matches your extension name
