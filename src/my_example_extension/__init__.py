@@ -26,7 +26,6 @@ def unregister():
 def hot_reload():
     # Refresh submodules during development
     from .env import ENV
-    print("RELOADING@")
     if ENV == "DEV":
         import importlib
         for module in modules:

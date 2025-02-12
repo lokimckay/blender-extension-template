@@ -19,8 +19,8 @@ pdm install
 
 ## Developing
 
-```
-pdm run dev
+```shell
+pdm dev
 ```
 
 Blender will launch automatically.

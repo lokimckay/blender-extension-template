@@ -8,7 +8,6 @@ class ObjectMoveX(bpy.types.Operator):
 
     # execute() is called when running the operator.
     def execute(self, context):
-        print("RUINNNINGGGG!!!")
 
         # The original script
         scene = context.scene
