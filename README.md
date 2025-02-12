@@ -7,7 +7,7 @@ Allows you to develop blender extensions with hot-reloading directly from comman
 - Python 3.1+
 - [PDM](https://pdm-project.org/en/latest/#installation)
 
-## Usage
+## Quick start
 
 ## Installation
 
@@ -26,6 +26,8 @@ pdm dev
 Blender will launch automatically.
 
 Any changes made in external editors should be reflected immediately in blender.
+
+The example extension can be found under "Hello World" on the Object Properties panel.
 
 ## Features
 
