@@ -1,7 +1,10 @@
 # Blender extension template
 
+Allows you to develop blender extensions with hot-reloading directly from commandline instead of relying on the VS Code extension which seems to be the standard method.
+
 ## Requirements
 
+- Python 3.1+
 - [PDM](https://pdm-project.org/en/latest/#installation)
 
 ## Usage
@@ -9,7 +12,8 @@
 ## Installation
 
 ```shell
-degit lokimckay/blender-extension-template
+npx degit lokimckay/blender-extension-template my_blender_extension
+cd my_blender_extension
 pdm install
 ```
 
@@ -19,7 +23,9 @@ pdm install
 pdm run dev
 ```
 
-Any changes made in external editors should automatically reflect in blender.
+Blender will launch automatically.
+
+Any changes made in external editors should be reflected immediately in blender.
 
 ## Features
 
